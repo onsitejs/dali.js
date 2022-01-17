@@ -1,13 +1,13 @@
-# dali
-Dali is a Picasso-like device attestation payload
+# dali.js
+`dali.js` is a Picasso-like device attestation payload.
 
 ## Use in-browser
 Use the minified version in `dist`:
 ```
-[7.8K]  dali.min.js 13f558356a2c193e75823556fe9ceb6166dd91abc671a390ff6aead392892590
+[7.8K]  dali.min.js 4a3708c0660ce8a01f8a9f85f1edcd13840ea2c77d183cdd349ab5bd42f24744
 ```
 You can call it like so, with all the parameters in the exact order:
-```
+```html
 <script>
     dali([
         15, // repetitions
@@ -26,8 +26,11 @@ You can call it like so, with all the parameters in the exact order:
 </script>
 ```
 When called, the `dali` function will generate a [Promise Response](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) of:
-```
-{"url":"<url_string>","hash":"<sha256_hash_string>"}
+```json
+{
+    "url":"<url_string>",
+    "hash":"<sha256_hash_string>"
+}
 ```
 
 ## Copyright

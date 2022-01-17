@@ -1,4 +1,4 @@
-async function dali() {
+async function dali(params) {
     const repetitions = params[0];
     const seed = params[1];
     
