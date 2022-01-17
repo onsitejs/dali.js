@@ -1,6 +1,8 @@
 # dali.js
 `dali.js` is a Picasso-like device attestation payload.
 
+[Live demo availble here.](https://onsitejs.github.com/dali.js/index.html)
+
 ## Use in-browser
 Use the minified version in `dist`:
 ```
